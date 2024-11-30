@@ -3,7 +3,7 @@
 KeepSafe: A money tracking system where it keeps a data where your money goes. This system allows the user to know what they do with their money, where their money go, spending their money properly appropriate with their recorded transactions separating their wallets for allowance and savings. 
 
 # II. Explanation of how OOP principles were applied
-##  Python Concepts
+
   - **Encapsulation**:
     - The fields in the Transaction class (`type`, `sourceAccount`, `targetAccount`, `etc.`) and `Account` class (`accountName`, `balance`) are private. 
      Access is controlled through methods.
