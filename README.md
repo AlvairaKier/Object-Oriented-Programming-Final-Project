@@ -31,7 +31,7 @@ Users interact with methods like `deposit()`, `withdraw()`, and `transferMoney()
 
 # IV. Instructions for Running the Program
 
- 1. First is download the java file named `KeepSafe.java`.
+ 1. First is to open the java file named `KeepSafe.java`.
 
 2. Then run the `KeepSafeSystem.java` code in Visual Studio.
    
