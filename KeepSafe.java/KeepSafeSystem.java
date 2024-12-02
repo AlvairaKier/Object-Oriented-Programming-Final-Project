@@ -21,7 +21,7 @@ class Transaction
         this.timestamp = timestamp;
     }
 
-    // polymorphism and overriding
+    // polymorphism - overriding
     @Override
     public String toString() 
     {
