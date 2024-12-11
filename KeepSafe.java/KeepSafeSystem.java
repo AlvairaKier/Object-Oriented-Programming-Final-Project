@@ -71,7 +71,7 @@ class Account
             balance += amount;
             // Log the transaction
             transactions.add(new Transaction("Deposit", accountName, null, amount, java.time.LocalDateTime.now().toString()));
-            System.out.println("\n" + amount + " has been deposited to " + accountName + ". \nNew balance: " + balance);
+            System.out.println("\n" + amount + " has been deposited to " + accountName + ". \n\nNew balance: " + balance);
         }
     }
 
@@ -94,7 +94,7 @@ class Account
 
             // Log the transaction
             transactions.add(new Transaction("Withdraw", accountName, null, amount, java.time.LocalDateTime.now().toString()));
-            System.out.println("\n" + amount + " has been withdrawn from " + accountName + ". \nRemaining balance: " + balance);
+            System.out.println("\n" + amount + " has been withdrawn from " + accountName + ". \n\nRemaining balance: " + balance);
         }
     }
 
